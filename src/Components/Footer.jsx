@@ -16,13 +16,9 @@ const Footer = () => {
             <Link to={'https://www.facebook.com/zayeem.haider/'}><FacebookIcon/></Link>
             <Link to={'https://www.linkedin.com/in/khalid-haider-jafri-78368220a/'}><LinkedInIcon/></Link>
             <Link to={'https://github.com/xayyeem'}><GithubIcon/></Link>
-
-            
-            
-            
-            
         </div>
-            <p>&copy; 2023  khalid</p>
+            <p>&copy; khalidhaiderjafri@gmail.com  </p>  <p>+91 9696668689</p>
+            
     </div>
   )
 }

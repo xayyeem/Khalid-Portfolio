@@ -10,9 +10,9 @@ const Home = () => {
   return (
     <div className='home'>
         <div className="about">
-            <h2>Hi my name is Khalid</h2>
+            <h2>Hi my name is Khalid Haider <span>Jafri</span></h2>
             <div className="prompt">
-                <p>Passionate Creator and Learner</p>
+                <p>Creating, Coding, and Inspiring</p>
                 <Link to={'https://www.linkedin.com/in/khalid-haider-jafri-78368220a/'}><LinkedInIcon/></Link>
                 <Link to={'https://github.com/xayyeem'}><GithubIcon/></Link>
                 <Link to={'mailto:khalidhaiderjafri@gmail.com'}><EmailIcon/></Link>
