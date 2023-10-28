@@ -5,7 +5,7 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GithubIcon from "@material-ui/icons/Github";
 import EmailIcon from "@material-ui/icons/Email";
 import AssignmentReturnedIcon from "@material-ui/icons/AssignmentReturned";
-// import AssignmentReturnedIcon from '@mui/icons-material/AssignmentReturned';
+
 const Home = () => {
   return (
     <div className='home'>

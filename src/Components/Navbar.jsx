@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import '../Styles/Navbar.css'
 import ReorderIcon from '@material-ui/icons/Reorder'
+import About from '../Pages/About'
 const Navbar = () => {
     const[extendNavbar,setExtendNavbar]=useState(false);
     const location = useLocation();
@@ -19,6 +20,8 @@ const Navbar = () => {
         <Link to="/">Home</Link>
         <Link to="/projects">Projects</Link>
         <Link to="/education">Education</Link>
+        <Link to="/About">About </Link>
+
         </div>
     </div>
   )

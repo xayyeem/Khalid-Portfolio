@@ -2,6 +2,8 @@ import ProjectItem from '../Components/ProjectItem'
 import Capture1 from '../assets/Capture1.png'
 import Capture2 from '../assets/Capture2.png'
 import Capture3 from '../assets/Capture3.png'
+import Capture4 from '../assets/Capture4.png'
+
 export const ProjectList = [
     {
       name: "WonderLust Travel",
@@ -21,5 +23,11 @@ export const ProjectList = [
       skills: "HTML,CSS,JavaScript",
       url:"https://github.com/xayyeem/Weather-app"
     },
+    {
+      name:"Disney+ Hotstar Clone",
+      image: Capture4,
+      skills:"HTML,CSS,JavaScript",
+      url:"https://github.com/xayyeem/disney-clone"
+    }
     
   ];
