@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GithubIcon from "@material-ui/icons/Github";
 import EmailIcon from "@material-ui/icons/Email";
+import CallIcon from "@material-ui/icons/Call";
 import AssignmentReturnedIcon from "@material-ui/icons/AssignmentReturned";
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
                 <Link to={'https://github.com/xayyeem'}><GithubIcon/></Link>
                 <Link to={'mailto:khalidhaiderjafri@gmail.com'}><EmailIcon/></Link>
                 <Link to={'https://drive.google.com/file/d/1lB7lMW1ywY2hZfX-QmYCx2fpnTJhfwqK/view?usp=drive_link'}><AssignmentReturnedIcon/></Link>
+                <a href="tel:9696668689"><CallIcon/></a>
             </div>
         </div>
         <div className="skills">

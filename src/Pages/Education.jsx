@@ -8,10 +8,10 @@ const Education = () => {
     <div className='Education'>
       <VerticalTimeline lineColor='#3e497a'>
         <VerticalTimelineElement className='vertical-timeline-element--education' 
-        date='2017-2018' iconStyle={{background:'#3e497a' , color:'#fff'}}
+        date='2021-2024' iconStyle={{background:'#3e497a' , color:'#fff'}}
         icon={<SchoolIcon/>}>
-          <h3 className='vertical-timeline-element-title'>Ewing Christian Public School, Prayagraj Uttar Pradesh</h3>
-          <p>HighSchool</p>
+          <h3 className='vertical-timeline-element-title'>Shambhunath Institute of Engineering and Technology</h3>
+          <p>Bachelor of Technology</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement className='vertical-timeline-element--education' 
@@ -22,10 +22,10 @@ const Education = () => {
         </VerticalTimelineElement>
 
         <VerticalTimelineElement className='vertical-timeline-element--education' 
-        date='2021-2024' iconStyle={{background:'#3e497a' , color:'#fff'}}
+        date='2017-2018' iconStyle={{background:'#3e497a' , color:'#fff'}}
         icon={<SchoolIcon/>}>
-          <h3 className='vertical-timeline-element-title'> Shambhunath Institute of Engineering and Technology, Prayagraj Uttar Pradesh</h3>
-          <p>Bachelor of Technology</p>
+          <h3 className='vertical-timeline-element-title'> Ewing Christian Public School, Prayagraj Uttar Pradesh</h3>
+          <p>Secondary School</p>
         </VerticalTimelineElement>
 
       </VerticalTimeline>
